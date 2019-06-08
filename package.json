@@ -1,0 +1,49 @@
+{
+  "name": "player",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts/"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "es6-symbol": "^3.1.1",
+    "jsc-android": "^236355.1.1",
+    "mobx": "^4.9.0",
+    "mobx-react": "^5.4.3",
+    "prop-types": "^15.6.2",
+    "react": "16.6.3",
+    "react-native": "0.58.3",
+    "react-native-elements": "^1.0.0",
+    "react-native-flash-message": "^0.1.11",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-rate": "^1.1.6",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-swift": "^1.2.2",
+    "react-native-track-player": "^1.1.1",
+    "react-native-vector-icons": "^6.2.0",
+    "react-navigation": "^3.3.2",
+    "redux-saga": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/runtime": "^7.1.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "24.0.0",
+    "jest": "24.0.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "isSwift": true
+}
