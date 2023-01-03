@@ -20,7 +20,7 @@
     "mobx-react": "^5.4.3",
     "prop-types": "^15.6.2",
     "react": "16.6.3",
-    "react-native": "0.58.3",
+    "react-native": "0.58.6",
     "react-native-elements": "^1.0.0",
     "react-native-flash-message": "^0.1.11",
     "react-native-gesture-handler": "^1.0.15",
